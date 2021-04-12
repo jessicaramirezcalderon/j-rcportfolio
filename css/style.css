@@ -109,6 +109,19 @@ body:after {
   justify-content: center;
 }
 
+.service-about {
+  margin: 0 auto;
+}
+
+.fab {
+  font-size:80px;
+  color: white;
+}
+
+.fa-github {
+  margin-left:50px;
+}
+
 
 .btn {
   font-size: 16px;
