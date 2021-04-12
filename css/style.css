@@ -76,6 +76,36 @@ body:after {
     z-index: 999;
     background: rgba(0, 0, 0, 0.2); }
 
+
+.portfolio-inner-divs {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.item:hover .portfolio-inner-divs {
+  display: block;
+  /* background-color: rgba(255, 255, 255, 0.7);  */
+  background-color: rgba(0, 0, 0, 0.7); 
+  cursor: pointer;
+}
+
+.project-links {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.project-links button a {
+  color: white;
+}
+
+
 .btn {
   font-size: 16px;
   border-radius: 30px;
